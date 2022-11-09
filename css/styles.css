@@ -25,10 +25,15 @@ html {
 }
 
 .navbar__video-container {
+    background-image: url(../Images/Bg-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 680px;
+    height: 100vh;
     z-index: -1;
 }
 
@@ -287,6 +292,11 @@ html {
 }
 
 .experience {
+    background-image: url(../Images/exp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -332,6 +342,10 @@ a {
 .contact__title {
     color: var(--Color-Titles);
     font-size: 1.5rem;
+}
+
+.experience-bussines__li{
+    font-weight: 700;
 }
 
 .experience-bussines__container {
